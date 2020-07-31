@@ -1,0 +1,101 @@
+body {
+	background-color: #61122f;
+}
+
+#header-nav{
+	background-color:#FFFF00;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-header {
+	width: 200%;
+}
+
+.navbar-brand h1 {
+	color: #557c3e;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+#navbarNav{
+	margin-top: 50px; 
+	background-color: #FFFF00;
+	border-radius: 0;
+}
+.nav-list {
+	margin-top: 10px;
+	background-color: #FFFF00;
+}
+.nav-list a {
+	font-weight: bold;
+	text-decoration: none;
+	color: #951C49;
+	text-align: center;
+}
+.nav-list a:hover {
+	background: #E7E7E7;
+}
+
+.navbar-header button.navbar-toggler, .navbar-header .navbar-toggler-icon{
+	border: 1px solid #61122f;
+}
+button{
+	float: right;
+}
+.navbar-toggler {
+	margin-top: 25px;
+}
+.navbar-header button.navbar-toggler {
+	clear: both;
+}
+
+#main-heading {
+	color: #157c3a;
+	font-weight: bold;
+}
+
+.menu-tile {
+	height: 300px;
+	width: 100%;
+	margin-bottom: 15px;
+	position: relative;
+	border: 2px solid #3F0C1F;
+	overflow: hidden;
+	color: #ffffff;
+}
+.menu-tile a {
+	color: #157c3a;
+	font-weight: bold;
+	text-decoration: none;
+}
+.menu-tile:hover {
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+.menu-tile p,a {
+	margin-top: 15px;
+}
+
+/** Extra small devices (portrait phones, less than 576px)**/
+@media (max-width: 767px) {
+
+}
+
+/** Medium devices (tablets, 768px and up)**/
+@media (min-width: 768px) and (max-width: 991px) {
+	
+}
+
+/** Large devices (desktops, 992px and up)**/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/**Extra large devices (large desktops, 1200px and up)***/
+@media (min-width: 1200px) {
+
+}
